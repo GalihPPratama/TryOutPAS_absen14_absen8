@@ -18,15 +18,16 @@
         android:layout_height="64dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="Team Badge" />
+        android:contentDescription="@string/team_badge" />
 
     <TextView
         android:id="@+id/tvTeamName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:paddingStart="8dp"
-        android:text="Team Name"
+        android:text="@string/team_name"
         android:textSize="18sp"
+        android:paddingEnd="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/imgTeamBadge"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/imgTeamBadge"

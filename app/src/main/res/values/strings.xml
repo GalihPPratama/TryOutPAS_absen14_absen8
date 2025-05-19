@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TryOutPAS_absen14_absen8</string>
+    <string name="team_name">Team Name</string>
+    <string name="team_badge">Team Badge</string>
+    <string name="all_teams_in_premier_league">All teams in Premier League</string>
+    <string name="all_teams_in_laliga">All teams in LaLiga</string>
 </resources>
