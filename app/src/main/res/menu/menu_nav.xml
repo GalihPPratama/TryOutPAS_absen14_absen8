@@ -1,14 +1,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/nav_english"
-        android:icon="@android:drawable/ic_menu_view"
-        android:title="English League" />
+        android:icon="@drawable/img_1"
+        android:title="Premier League" />
     <item
         android:id="@+id/nav_spanish"
-        android:icon="@android:drawable/ic_menu_manage"
-        android:title="Spanish League" />
+        android:icon="@drawable/laliga"
+        android:title="La Liga" />
     <item
         android:id="@+id/nav_allcountry"
-        android:icon="@android:drawable/ic_menu_info_details"
-        android:title="All Country" />
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home" />
 </menu>

@@ -6,12 +6,13 @@
     android:orientation="vertical">
 
     <TextView
-        android:text="InsertEnglishLeague"
+        android:text="All teams in Premier League"
         android:textSize="24sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewEN"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 </LinearLayout>
